@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Recap</title>
+</head>
+<body>
+    <nav style="text-align: right; margin: 0; padding: 20px; position: fixed; top: 0; left: 0; width: 100vw; background-color: steelblue; border: 2px solid yellow;">
+        <a href="#blather"style="padding: 20px;">Basic Blather</a>
+        <a href="#baseform"style="padding: 20px;">Form</a>
+        <a href="#flamingos"style="padding: 20px;">Flamingoes!</a>
+    </nav>
+    <div>
+        <section id="blather" style="padding-top: 40px">
+            <h1>Basic blather!</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ipsam ducimus labore corrupti quas cum dolores autem nam, iure sapiente totam optio maxime, porro iusto architecto similique! Ratione, eius a!
+            </p>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis sint debitis explicabo, itaque esse nostrum quibusdam tempore! Neque veritatis quae, ea soluta totam, explicabo, perspiciatis enim velit obcaecati ex magnam.
+            </p>
+        </section style="border: 3px solid black">
+        <section id="baseform">
+            <form>
+                <fieldset>
+                    <legend>HTML Recap Basic Info</legend>
+                    <p>
+                        <label>Customer Name: <input name="name"></label>
+                    </p>
+                    <p>
+                        <input type="saddress" placeholder="Street address">
+                    </p>
+                    <p>
+                        <input type="email" placeholder="Email address">
+                    </p>
+                </fieldset>
+                <hr />
+                <fieldset>
+                    <legend>Shirt Size</legend>
+                    <p>
+                        <input type="radio" name="size" id="sizes" value="sizes">
+                        <label for="sizes">Small</label>
+                    </p>
+                    <p>
+                        <input type="radio" name="size" id="sizem" value="sizem">
+                        <label for="sizem">Small</label>
+                    </p>
+                    <p>
+                        <input type="radio" name="size" id="sizel" value="sizel">
+                        <label for="sizes">Small</label>
+                    </p>
+                    <p>
+                        <input type="radio" name="size" id="sizexl" value="sizexl">
+                        <label for="sizexl">Small</label>
+                    </p>
+                </fieldset>
+            </form>
+        </section>
+        <hr />
+        <section id="flamingos">
+            <h3>...because I like flamingos...</h3>
+            <iframe src="https://www.youtube.com/embed/owsfdh4gxyc" frameborder="10" width="700" height="400" allowfullscreen></iframe>
+        </section>
+    </div>
+</body>
+</html>
